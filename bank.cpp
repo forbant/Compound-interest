@@ -16,7 +16,7 @@ void Bank::count() {
     _future_amount = _present_amount * _precent;
 }
 void Bank::set(float precent, int period, float amount) {
-    _precent = precent;
+    _precent = precent/100;
     _period = period;
     _present_amount = amount;
 }
