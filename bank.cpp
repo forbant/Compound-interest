@@ -15,3 +15,8 @@ void Bank::count() {
         _precent *= multilier;
     _future_amount = _present_amount * _precent;
 }
+void Bank::set(float precent, int period, float amount) {
+    _precent = precent;
+    _period = period;
+    _present_amount = amount;
+}

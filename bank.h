@@ -12,5 +12,6 @@ public:
     Bank(float precent, int period, float amount);
     void print();
     void count();
+    void set(float precent, int period, float amount);
 };
 #endif
