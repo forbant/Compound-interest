@@ -2,9 +2,7 @@
 #include <iostream>
 
 int main(int argc, char *argv[]) {
-    Bank bank(0.043,6,1500);
-    bank.count();
-    bank.print();
+    Bank bank;
     int period;
     float amount, precent;
 char c = 'y';
